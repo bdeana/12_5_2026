@@ -23,10 +23,16 @@ public class Novci {
             int broj = centi / novcanice_kovanice_centi;
 
             if (broj > 0) {
-                if(i >2){
-                    System.out.println("Novčanica od " +i+ "€ vratit ćemo " + broj);
+                //if(i >2){
+                //    System.out.println("Novčanica od " +i+ "€ vratit ćemo " + broj);
+                //}else {
+                //    System.out.println("Kovanica od " +i+ "€ vratit ćemo " + broj);
+                //}
+
+                if (i>=1) {
+                    System.out.println(broj + "*" + (int)i);
                 }else {
-                    System.out.println("Kovanica od " +i+ "€ vratit ćemo " + broj);
+                    System.out.println(broj + "*" + i);
                 }
             }
 
